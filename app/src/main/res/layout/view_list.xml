@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="50dp">
+
+        <ImageView
+        android:id="@+id/ImagePic"
+        android:layout_height="50dp"
+        android:layout_width="50dp"
+            android:src="@drawable/a"
+            android:scaleType="centerInside"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:orientation="vertical"
+
+        android:layout_toLeftOf="@+id/imageButton1"
+        android:layout_toRightOf="@+id/ImagePic"
+        android:layout_toEndOf="@+id/ImagePic">
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/mess1"
+            android:layout_weight="0.07"
+            android:gravity="center_vertical"
+            android:paddingLeft="20dp"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/imageButton1"
+            android:layout_toStartOf="@+id/imageButton1" />
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/mess2"
+            android:layout_weight="0.07"
+            android:gravity="center_vertical"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/imageButton1"
+            android:layout_toStartOf="@+id/imageButton1"
+            android:paddingLeft="20dp" />
+
+    </LinearLayout>
+
+    <ImageButton
+        android:paddingTop="12.5dp"
+        android:paddingBottom="12.5dp"
+        android:layout_height="25dp"
+        android:id="@+id/imageButton1"
+        android:layout_width="25dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/white"
+        android:paddingRight="10dp" />
+
+</RelativeLayout>

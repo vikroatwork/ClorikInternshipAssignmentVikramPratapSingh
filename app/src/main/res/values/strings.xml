@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ClorikInternshipAssignmentVikramSingh</string>
+    <string name="url">Load image from:</string>
+    <string name="URLAddress">https://cdn.pixabay.com/photo/2015/04/22/12/02/butterfly-734654_960_720.jpg</string>
+</resources>
